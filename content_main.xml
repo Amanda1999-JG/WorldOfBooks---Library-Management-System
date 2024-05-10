@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/btnAddBook"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="Add Book" />
+
+        <Button
+            android:id="@+id/btnViewBooks"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="View Books" />
+
+        <Button
+            android:id="@+id/btnDeleteBook"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Delete Book" />
+
+        <Button
+            android:id="@+id/btnPublisherDetails"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Publisher Details" />
+
+        <Button
+            android:id="@+id/btnAuthorDetails"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="Author Details" />
+
+        <Button
+            android:id="@+id/btnMemberDetails"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="Member Details" />
+    </LinearLayout>
+</ScrollView>
